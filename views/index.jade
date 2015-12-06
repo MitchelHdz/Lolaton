@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form(method='POST' action='getHashtags()')
+   input(type='text' value='')
+   button(type='submit' value='Dale')
